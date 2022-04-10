@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sjhuang/Documents/projects/operator_system/file_i_o/file_i_o.h
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+
+/Users/sjhuang/Documents/projects/operator_system/file_i_o/open_file.c
+file_i_o.h
+/Users/sjhuang/Documents/projects/operator_system/file_i_o/file_i_o.h
+
